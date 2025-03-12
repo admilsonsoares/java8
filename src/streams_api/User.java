@@ -1,3 +1,5 @@
+package streams_api;
+
 public class User {
 
     private String name;
@@ -24,7 +26,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "streams_api.User{" +
                 "name=" + name +
                 ", age=" + age +
                 ", city=" + city +
