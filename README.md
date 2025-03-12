@@ -33,3 +33,17 @@
  ✔ orElse("Nome não encontrado") → Retorna o valor se existir, senão retorna um padrão.
 
  ✔ ifPresent(n -> System.out.println(n)) → Executa uma ação se o valor estiver presente.
+ 
+## API de data/hora (java.time)
+
+ ✔ LocalDate → Representa apenas a data (yyyy-MM-dd).
+
+ ✔ LocalTime → Representa apenas o horário (HH:mm:ss).
+
+ ✔ LocalDateTime → Representa data e hora juntos.
+ 
+ ✔ ZonedDateTime → Representa data e hora com fuso horário.
+
+ ✔ Duration e Period → Para cálculos de tempo e datas.
+
+ ✔ DateTimeFormatter → Para formatar datas e horas.

@@ -1,3 +1,4 @@
+import data_hora_api.DataHoraFacade;
 import default_method.Carro;
 import default_method.DefaultMethodFacade;
 import lambdas.LambdaFacade;
@@ -23,8 +24,11 @@ public class Main {
 //        lambdaFacade.printExemplos();
 
         // Exemplo do uso de Optional
-        OptionalFacade optionalFacade = new OptionalFacade();
-        optionalFacade.printExemplos();
+//        OptionalFacade optionalFacade = new OptionalFacade();
+//        optionalFacade.printExemplos();
 
+        // Exemplo da API de data/hora (java.time)
+        DataHoraFacade dataHoraFacade = new DataHoraFacade();
+        dataHoraFacade.printExemplos();
     }
 }
